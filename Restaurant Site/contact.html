@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> James' Burgers </title>
+    </head>
+    <body>
+        <h1> James' Burgers </h1>
+        <hr>
+        <a href="home.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact Us</a>
+        <hr> <br/>
+        <form action="details" method="post">
+        Name: <input type="text" name="name"> <br/> <br/>
+        Email: <input type="text" name="email"> <br/> <br/>
+        Phone: <input type="text" name="phone"> <br/> <br/>
+        Reason for Inquiry: 
+        <select name="reason">
+            <option value="Catering">Catering</option>
+            <option value="Party">Private Party</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Other">Other</option>
+        </select> <br/> <br/>
+        Additional Information: 
+        <textarea name="additionalInfo">
+        </textarea> <br/> <br/>
+        Have you been to James' Burgers?
+        <input type="radio" name="answer" value="Yes" checked/> Yes
+        <input type="radio" name="answer" value="No" /> No
+        <br/> <br/>
+        Best Days to contact you:
+        <input type="checkbox" name="checked" value="M" /> M
+        <input type="checkbox" name="checked" value="Tu" /> Tu
+        <input type="checkbox" name="checked" value="W" /> W
+        <input type="checkbox" name="checked" value="Th" /> Th
+        <input type="checkbox" name="checked" value="F" /> F
+        <br/> <br/>
+        <input type="submit" value="Send Request">
+        </form>
+        <br/> <hr>
+        123 Burger Road, Burgersville, NC, 27613
+        <br/> <br/>
+        919-123-4567
+        <hr>
+    </body>
+</html>
