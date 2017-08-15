@@ -5,10 +5,12 @@ img {
 
 h1 {
     text-align: center;
+    font-family: serif;
 }
 
 h2 {
     text-align: center;
+    font-family: serif;
 }
 
 h3 {
@@ -24,6 +26,7 @@ table {
 ul {
     position: relative;
     left: 30%;
+    font-style: italic;
 }
 
 th {
@@ -34,4 +37,11 @@ th {
 td {
     border-style: solid;
     border-width: 1px;
+}
+
+div {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/7/7c/The_Fray_-_How_to_Save_a_Life.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
 }
