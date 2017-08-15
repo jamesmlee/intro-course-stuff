@@ -2,14 +2,25 @@
 <html>
     <head>
         <title> James' Burgers </title>
+        <link href="restaurantStyles.css"
+              rel="stylesheet"
+              type="text/css" />
+        <style>
+        form {
+            text-align:left;
+        }
+        </style>
     </head>
     <body>
+        <!-- header -->
+        <div>
         <h1> James' Burgers </h1>
         <hr>
         <a href="home.html">Home</a>
         <a href="menu.html">Menu</a>
         <a href="contact.html">Contact Us</a>
-        <hr> <br/>
+        <hr> 
+        </div> <br/>
         <form action="details" method="post">
         Name: <input type="text" name="name"> <br/> <br/>
         Email: <input type="text" name="email"> <br/> <br/>
@@ -28,7 +39,7 @@
         <input type="radio" name="answer" value="Yes" checked/> Yes
         <input type="radio" name="answer" value="No" /> No
         <br/> <br/>
-        Best Days to contact you:
+        Best days to contact you:
         <input type="checkbox" name="checked" value="M" /> M
         <input type="checkbox" name="checked" value="Tu" /> Tu
         <input type="checkbox" name="checked" value="W" /> W
@@ -37,10 +48,14 @@
         <br/> <br/>
         <input type="submit" value="Send Request">
         </form>
-        <br/> <hr>
+        <br/> 
+        <!-- footer -->
+        <div>
+        <hr>
         123 Burger Road, Burgersville, NC, 27613
         <br/> <br/>
         919-123-4567
         <hr>
+        </div>
     </body>
 </html>
