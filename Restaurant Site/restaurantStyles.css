@@ -8,6 +8,7 @@ h1 {
 
 h3 {
     font-size: large;
+    text-decoration: underline;
 }
 
 p {
@@ -21,4 +22,37 @@ p {
 
 form {
     font-weight: bold;
+}
+
+a {
+    font-family: monospace;
+    font-weight: none;
+    text-decoration: underline;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+caption {
+    text-align: left;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: large;
+}
+
+table {
+    width: 15%;
 }
