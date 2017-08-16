@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    font-family: serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: serif;
+}
+
+h3 {
+    text-align: center;
+}
+
+#tracks {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightsalmon;
+}
+  
+ul {
+    position: relative;
+    left: 30%;
+    font-style: italic;
+}
+
+th {
+    border-style: solid;
+    border-width: 1px;
+}
+
+td {
+    border-style: solid;
+    border-width: 1px;
+    font-style: italic;
+}
+
+#picture {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/7/7c/The_Fray_-_How_to_Save_a_Life.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    display: block;
+}
+
+a {
+    font-family: monospace;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: yellow;
+}
+
+a:active {
+    text-decoration: none;
+}
