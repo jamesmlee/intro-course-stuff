@@ -1,0 +1,63 @@
+div {
+    text-align: center;
+}
+
+h1 {
+    font-family: fantasy;
+}
+
+h3 {
+    font-size: large;
+    text-decoration: underline;
+    color: black;
+}
+
+p {
+    font-size: medium;
+    text-align: left;
+}
+
+#HomeBackgroundColor {
+    background-color: burlywood;
+}
+
+form {
+    font-weight: bold;
+}
+
+a {
+    font-family: monospace;
+    font-weight: none;
+    text-decoration: underline;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+caption {
+    text-align: center;
+    text-decoration: underline;
+    font-size: large;
+    color: black;
+}
+
+table {
+    width: 15%;
+}
+
+td {
+    text-align: left;
+}
