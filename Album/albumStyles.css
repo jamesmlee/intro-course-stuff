@@ -21,6 +21,7 @@ table {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background-color: lightblue;
 }
 
 ul {
@@ -37,11 +38,33 @@ th {
 td {
     border-style: solid;
     border-width: 1px;
+    font-style: italic;
 }
 
 div {
     background-image: url("https://upload.wikimedia.org/wikipedia/en/7/7c/The_Fray_-_How_to_Save_a_Life.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    height: 300px;
+    height: 350px;
+}
+
+a {
+    font-family: monospace;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: yellow;
+}
+
+a:active {
+    text-decoration: none;
 }
