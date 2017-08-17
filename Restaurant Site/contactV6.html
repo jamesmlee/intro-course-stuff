@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> James' Burgers </title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+<!-- place own css stylesheet after Bootstrap for priority -->
+<link href="restaurantStylesV6.css"
+rel="stylesheet"
+type="text/css" />
+
+<!-- Optional theme -->
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"/>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+</script>
+        <style>
+            form {
+                text-align:left;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- header -->
+        <div>
+        <h1> James' Burgers </h1>
+        <hr>
+        <ul class="nav nav-pills">
+            <li> <a href="homeV6.html"><span class="glyphicon glyphicon-home"></span></a> </li>
+            <li> <a href="menuV6.html">Menu</a> </li>
+            <li class="active"> <a href="contactV6.html">Contact Us</a> </li>
+        </ul>
+        <hr> 
+        </div> <br/>
+        <form action="details" method="post">
+        Name: <input type="text" name="name"> <br/> <br/>
+        Email: <input type="text" name="email"> <br/> <br/>
+        Phone: <input type="text" name="phone"> <br/> <br/>
+        Reason for Inquiry: 
+        <select name="reason">
+            <option value="Catering">Catering</option>
+            <option value="Party">Private Party</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Other">Other</option>
+        </select> <br/> <br/>
+        Additional Information: 
+        <textarea name="additionalInfo">
+        </textarea> <br/> <br/>
+        Have you been to James' Burgers?
+        <input type="radio" name="answer" value="Yes" checked/> <span style="font-weight:normal">Yes</span>
+        <input type="radio" name="answer" value="No" /> <span style="font-weight:normal">No</span>
+        <br/> <br/>
+        Best days to contact you:
+        <input type="checkbox" name="checked" value="M" /> <span style="font-weight:normal">M</span>
+        <input type="checkbox" name="checked" value="Tu" /> <span style="font-weight:normal">Tu</span>
+        <input type="checkbox" name="checked" value="W" /> <span style="font-weight:normal">W</span>
+        <input type="checkbox" name="checked" value="Th" /> <span style="font-weight:normal">Th</span>
+        <input type="checkbox" name="checked" value="F" /> <span style="font-weight:normal">F</span>
+        <br/> <br/>
+        <input type="submit" value="Send Request">
+        </form>
+        <br/> 
+        <!-- footer -->
+        <div>
+        <hr>
+        123 Burger Road, Burgersville, NC, 27613
+        <br/> <br/>
+        919-123-4567
+        <hr>
+        </div>
+    </body>
+</html>
