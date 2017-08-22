@@ -46,12 +46,14 @@ td {
 }
 
 #picture {
-    background-image: url("https://upload.wikimedia.org/wikipedia/en/7/7c/The_Fray_-_How_to_Save_a_Life.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 100%;
     border-radius: 50%;
+    display: block;
+}
+
+#picture > img {
+    margin: 0px auto;
     display: block;
 }
 
